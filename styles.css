@@ -10,4 +10,7 @@ h1 {
     border:5px solid black;
     border-radius:10px;
 }
-
+.imagen-destacada {
+    border: 10px solid #ff6347;
+    filter: grayscale(50%);
+}
