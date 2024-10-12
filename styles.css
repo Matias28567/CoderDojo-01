@@ -1,7 +1,7 @@
 body{
   background-image: url("minecraft.jfif");
   background-size: cover;
-    color:white;    
+        
 }
 h1 {
     font-size: 100px;
@@ -14,3 +14,28 @@ h1 {
     border: 10px solid #ff6347;
     filter: grayscale(50%);
 }
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 0 auto;
+  }
+ 
+ 
+ .header {
+    padding: 5px;
+    margin-bottom: 5px;
+  }
+ 
+ 
+ .row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+ 
+ 
+ .item {
+    padding: 10px;
+   
+  }
